@@ -1,21 +1,40 @@
-.a{
-  background-color: orange;
+.botton{
+  background-color: #FFBF00;
   display: inline-block;
-  margin: 0 auto;
+  text-align: center;
   padding: 20px;
   font-size: 20px;
   box-shadow: 0px 10px black;
+  position: absolute;
+  top: 70%;
+  left: 50%;
 }
 
-.a:active{
-  position: relative;
-  top: 6px;
-  box-shadow: none;
+
+a {
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: skyblue;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
 }
+/*以下カーソルを当てたとき*/
+a:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+/*以下訪問済みのデザイン*/
+a:visited {
+  color: gray;/*文字をグレイに*/
+}
+
 
 .main{
-  height: 200px;
+  height: 1500px;
   background-size: cover;
   background-image: url(cupcake.jpg);
+  position: relative;
 }
-/* 背景（カップケーキ）のURL確認 */
